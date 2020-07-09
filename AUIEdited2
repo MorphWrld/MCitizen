@@ -87,11 +87,11 @@ local function initLibrary()
             mainColor = Color3.fromRGB(36, 36, 36);
             bottomColor = Color3.fromRGB(34, 34, 34);
             borderColor = Color3.fromRGB(42, 42, 42);
-            scrollingBarColor = Color3.fromRGB(115, 41, 255);
+            scrollingBarColor = Color3.fromRGB(133, 84, 255);
             toggleColor = Color3.fromRGB(34, 34, 34);
-            toggleBorderColor = Color3.fromRGB(102, 41, 255);
+            toggleBorderColor = Color3.fromRGB(155, 84, 255);
             boxColor = Color3.fromRGB(32, 32, 32);
-            boxBorderColor = Color3.fromRGB(102, 41, 255);
+            boxBorderColor = Color3.fromRGB(193, 143, 255);
             gradientColorSection = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(202, 153, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(134, 54, 255))};
             gradientColor = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(202, 153, 255)), ColorSequenceKeypoint.new(0, Color3.fromRGB(134, 54, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(202, 153, 255))};
             shadowGradientColor = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(20, 20, 20)), ColorSequenceKeypoint.new(1, Color3.fromRGB(36, 36, 36))};
@@ -216,7 +216,7 @@ local function initLibrary()
                         Font = "GothamSemibold";
                         TextSize = 14;
                         library:Create("UIGradient", {
-                            Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(156, 69, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(201, 153, 255))}
+                            Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(148, 71, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(192, 145, 255))}
                         });
                     });
                     library:Create("Frame", {
@@ -297,7 +297,7 @@ local function initLibrary()
                 SliceScale = 1;
                 Name = "back";
                 library:Create("UIGradient", {
-                    Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(102, 41, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(132, 41, 255))}
+                    Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(148, 71, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(192, 145, 255))}
                 });
                 library:Create("TextLabel", {
                     BackgroundTransparency = 1;
@@ -518,7 +518,7 @@ local function initLibrary()
                     library:Create("TextButton", {
                         Name = "slider";
                         BackgroundColor3 = Color3.fromRGB(34, 34, 34);
-                        BorderColor3 = Color3.fromRGB(102, 41, 255);
+                        BorderColor3 = Color3.fromRGB(192, 145, 255);
                         Position = UDim2.new(0, 0, 1, -19);
                         Size = UDim2.new(1, 0, 0, 16);
                         AutoButtonColor = false;
